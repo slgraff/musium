@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="/app/logo-light-background.svg" alt="Musium" width="400">
-  <source media="(prefers-color-scheme: dark)" srcset="/app/logo-dark-background.svg" alt="Musium" width="400">
+  <source media="(prefers-color-scheme: light)" srcset="app/logo-light-background.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="app/logo-dark-background.svg">
 </picture>
 
 
