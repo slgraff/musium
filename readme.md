@@ -1,6 +1,9 @@
 <h1 align="center">
-<img src="app/logo-light-background.svg#gh-light-mode-only" alt="Musium" width="400">
-<img src="app/logo-dark-background.svg#gh-dark-mode-only" alt="Musium" width="400">
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="/app/logo-light-background.svg" alt="Musium" width="400">
+  <source media="(prefers-color-scheme: dark)" srcset="/app/logo-dark-background.svg" alt="Musium" width="400">
+</picture>
 </h1>
 
 Musium is an album-centered music player. It is designed to run as a daemon on
